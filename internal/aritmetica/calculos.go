@@ -1,7 +1,7 @@
-package calculos
+package aritmetica
 
 import (
-	entrada "calculator-cli/Entrada"
+	entrada "calculator-cli/internal/Entrada"
 	"fmt"
 )
 

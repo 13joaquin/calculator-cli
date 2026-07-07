@@ -1,7 +1,7 @@
 package convertidor
 
 import (
-	entrada "calculator-cli/Entrada"
+	entrada "calculator-cli/internal/Entrada"
 	"fmt"
 )
 
@@ -54,7 +54,7 @@ func Convertidor() {
 		case opFarentACelsius:
 			fahrenheit := entrada.LeerOpcion("Ingresa la temperatura en Farenheit")
 			resultado := farentAcelius(float64(fahrenheit))
-			fmt.Println("Resultado: %.2f°F a %.2f°C", fahrenheit, resultado)
+			fmt.Printf("Resultado: %.2f°F = %.2f°C", fahrenheit, resultado)
 		default:
 			fmt.Println("Opcion no valida. Intentalo de nueo")
 		}

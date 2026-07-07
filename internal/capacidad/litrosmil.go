@@ -1,0 +1,5 @@
+package capacidad
+
+func FechaHora() {
+
+}
